@@ -1,0 +1,182 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-bottom:150px;
+
+}
+
+.header1{
+    display: flex;
+    margin: 10px 250px 80px 250px;
+}
+
+.left-side{
+    margin-right:auto;
+}
+
+.logo-name{
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.list{
+    display: flex;
+    gap: 15px;
+}
+
+.header2{
+    display: flex;
+    margin: 10px 200px;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2text{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin:0px;
+}
+
+.subtitle{
+    margin:10px 0px;
+    color:#E5E7EB;
+}
+
+.button{
+    margin:0px;
+    padding:4px 15px;
+    width:fit-content;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:5px;
+    border:0px;
+}
+
+.image{
+    width: 600px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+}
+
+.mid1{
+    font-size:36px;
+    font-weight:bolder;
+    color: #1F2937;
+}
+
+.mid2{
+    display:flex;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.squarecon1, .squarecon2, .squarecon3, .squarecon4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    text-align: center;
+}
+
+.square{
+    width:200px;
+}
+
+.quote-container{
+    background-color:#E5E7EB;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:600px;
+}
+
+.quote-footer{
+    margin-left:400px;
+    font-size: larger;
+
+}
+
+.signup-container{
+    background-color:#3882F6;
+    height:150px;
+    margin:100px 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.call-action-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-right:300px;
+}
+
+.call-action{
+    color:#F9FAF8;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.call-action-footer{
+    color:#E5E7EB;
+}
+
+.button2{
+    color:white;
+    padding: 5px 20px;
+    border:2px solid white;
+    border-radius: 8px;
+
+}
+
+.footer{
+    height:80px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
